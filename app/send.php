@@ -84,7 +84,7 @@ class Email {
                 //enviamos el email con el archivo adjunto
                 $this->sender->send();
                 //url para redireccionar
-                $this->url = 'https://mssprp82.000webhostapp.com/';
+                $this->url = 'https://support-suwyx.ondigitalocean.app/';
                 //redireccionamos a la misma url conforme se ha enviado correctamente con la variable si
                 header('Location:'.$this->url.'?s=si');
             }
